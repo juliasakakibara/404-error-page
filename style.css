@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +14,28 @@ body {
     font-family: 'Bungee', cursive;
     font-size: 300px;
     color:rgb(33, 34, 33);
+}
+
+.nav-bar > ul{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 21px;
+	color:rgb(33, 34, 33);
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+li {
+	align-items: center;
+	list-style: none;
+	padding: 30px;
+}
+
+a {
+	text-decoration: none;
+	color:rgb(33, 34, 33);
+
+	
 }
 
 .eye-container {
